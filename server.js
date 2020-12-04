@@ -7,7 +7,7 @@ app.get('*', (req, res) =>
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
 )
 
-const PORT =  5000
+const PORT =  3001
 
 app.listen(
   PORT,
