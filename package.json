@@ -1,0 +1,16 @@
+{
+  "name": "tatto-initial-deploy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "client:build": "npm run build --prefix client"
+   },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

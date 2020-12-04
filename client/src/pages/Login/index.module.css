@@ -1,0 +1,31 @@
+.form {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -185px 0 0 -325px;
+    width: 650px;
+    height: 370px;
+    padding: 40px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.08);
+    z-index: 10;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+  }
+
+  @media screen and (max-width: 700px) {
+    .form {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        padding: 20px;
+      }
+  }
+  
+  .ant-spin-container,
+  .ant-spin-nested-loading {
+    height: 100%;
+  }

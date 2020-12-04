@@ -1,0 +1,19 @@
+
+.logo {
+    height: 40px;
+    margin: 16px;
+    margin-bottom: 50px;
+    background-color: red;
+  }
+
+
+.sider {
+    z-index: 10;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    -webkit-box-shadow: 1px 0px 1px 1px rgba(218,226,237,1);
+    -moz-box-shadow: 1px 0px 1px 1px rgba(218,226,237,1);
+    box-shadow: 1px 0px 1px 1px rgba(218,226,237,1);
+  }
+    
